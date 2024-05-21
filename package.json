@@ -4,8 +4,9 @@
   "description": "contact form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:css": "tailwindcss -i ./input.css -o ./output.css --watch"
   },
+  
   "author": "",
   "license": "ISC",
   "devDependencies": {
